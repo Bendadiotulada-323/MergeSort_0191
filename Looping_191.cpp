@@ -89,3 +89,6 @@ int main(){
 
     cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 }
+
+#include <iostream>
+using namespace std;
