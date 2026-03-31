@@ -120,3 +120,12 @@ void pilihanJurusan() {
             namaJurusan = "Teknik Elektro";
             statusKuota = "Kuota Penuh!";
             break;
+          case 3:
+            namaJurusan = "Sistem Informasi";
+            statusKuota = "Tersedia (5 Kursi)";
+            break;
+        default:
+            namaJurusan = "Tidak Diketahui";
+            statusKuota = "Error: Kode Tidak Valid";
+    }
+}
