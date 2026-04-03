@@ -27,7 +27,11 @@ void input()
     cout << "\nInputkan Isi element array" << endl;
     cout << "\n----------------------------" << endl;
 
-    for (int i = 5; i < n; i++)
+    for (int i = 0; i < 5; i++)
+    {
+        arr[i] = 0; //menandai bahwa ini slot kosong
+    }
+        
     {
         cout << "Array index ke- " << i << " : ";
         cin >> arr[i];
