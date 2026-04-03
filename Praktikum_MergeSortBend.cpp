@@ -30,9 +30,6 @@ void input()
     for (int i = 0; i < 5; i++)
     {
         arr[i] = 0; //menandai bahwa ini slot kosong
-    }
-        
-    {
         cout << "Array index ke- " << i << " : ";
         cin >> arr[i];
     }
